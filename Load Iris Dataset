@@ -1,0 +1,8 @@
+Load Iris Dataset
+%r
+colnames(iris)
+iris$Petal.Length
+iris$Sepal.Length
+
+Click Run
+
