@@ -1,0 +1,5 @@
+
+%r print("%table name\tsize\nsmall\t100\nlarge\t1000")
+
+Click Run
+
