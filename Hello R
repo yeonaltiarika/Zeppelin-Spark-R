@@ -1,0 +1,45 @@
+Hello R 
+foo <- TRUE
+print(foo)
+bare <- c(1, 2.5, 4)
+print(bare)
+double <- 15.0
+print(double)
+
+click Run
+
+Load R Librairies
+%r
+library(data.table)
+dt <- dHata.table(1:3)
+print(dt)
+for (i in 1:5) {
+  print(i*2)
+}
+print(1:50)
+
+Click Run
+
+Load Iris Dataset
+%r
+colnames(iris)
+iris$Petal.Length
+iris$Sepal.Length
+
+Click Run
+
+TABLE Display
+%r print("%table name\tsize\nsmall\t100\nlarge\t1000")
+
+Click Run
+
+HTML Display
+%r 
+
+print("%html <h3>Hello HTML</h3>")
+print("<font color='blue'><span class='fa fa-bars'> Easy...</font></span>")
+for (i in 1:10) {
+  print(paste0("<h4>", i, " * 2 = ", i*2, "</h4>"))
+}
+
+Click Run
