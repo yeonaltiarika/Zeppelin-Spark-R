@@ -1,0 +1,10 @@
+
+%r 
+
+print("%html <h3>Hello HTML</h3>")
+print("<font color='blue'><span class='fa fa-bars'> Easy...</font></span>")
+for (i in 1:10) {
+  print(paste0("<h4>", i, " * 2 = ", i*2, "</h4>"))
+}
+
+Click Run
